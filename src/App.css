@@ -1,0 +1,59 @@
+*{
+  font-family: poppins;
+}
+.navbar{
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+.bg{
+  background: lightgray;
+}
+.icon{
+  margin-bottom: 30px;
+  margin-left: 70%;
+}
+.icon-bar {
+  background-color: lightgray;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  transition: all 0.3s ease;
+}
+#navbar{
+  margin-top: 10px;
+}
+.window{
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 1100px) {
+  .icon-bar{
+    display: flex;
+    margin-top: 28px;
+    margin-left: 12px;
+    border-bottom-left-radius: unset;
+    border-top-left-radius: unset;
+  }
+  .navbarBrand{
+    margin-left: -48px;
+  }
+  .navbar{
+    border: unset;
+  }
+  #navbar{
+    margin-top: unset;
+    margin-left: -46px;
+  }
+  .icon{
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+  .window{
+    margin-left: unset;
+  }
+}
