@@ -6,7 +6,7 @@ let Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid" style={{marginBottom:"-32px"}}>
                 <a className="navbar-brand mx-5" href="/"><img className="navbarBrand" src={image} alt="logo" /></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse flex-column ml-lg-0 ml-3" id="navbar">
